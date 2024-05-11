@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: gray;
+}
+.calculadora{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    border-radius: 7px;
+    background-color: rgb(71, 181, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.monitor{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: #fff;
+    height: 25px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 9px;
+}
+.botao{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: transparent;
+}
