@@ -20,3 +20,9 @@ function calcular() {
            monitor.textContent = "Erro"; // Em caso de erro, exibe "Erro" no "monitor"
        }
    }
+   function apagar1() {
+    const conteudo_string= document.getElementById("monitor");
+    const str = conteudo_string.textContent;
+    const apagar_1 = str.substring(0, str.length - 1);
+    conteudo_string.textContent = apagar_1
+}

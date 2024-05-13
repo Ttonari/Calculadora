@@ -1,14 +1,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    background-color: gray;
+    background-color: pink;
+    
 }
 .calculadora{
-    width: 250px;
-    height: 300px;
+    max-width: 500px;
+    max-height: 625px;
     margin: auto;
-    border-radius: 7px;
-    background-color: rgb(71, 181, 255);
+    border-radius: 15px; 
+    background-color: purple;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -17,21 +18,39 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 .monitor{
-    margin: 0 auto;
-    margin-bottom: 50px;
-    background-color: #fff;
-    height: 25px;
-    width: 150px;
-    padding: 5px;
-    border-radius: 9px;
+    background-color: rgb(112, 36, 112);
+    height: 100px;
+    width: 100%;
     overflow: hidden;
+    text-align: left;     
+    font-size: 5rem;
+    color: rgb(250, 73, 191);
+    white-space: nowrap;
 }
 button{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 90px;
+    height: 90px;
     border: transparent;
     cursor: pointer;
+    font-size: 3rem ;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(250, 73, 191);
+}
+button:hover{
+    background-color: blueviolet;
+}
+button:active{
+    background-color: rgb(117, 0, 226);
+}
+.operadores{
+    background-color: #e0b0ff;
+}
+#calcular{
+    width: 204%;
 }

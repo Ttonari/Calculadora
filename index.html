@@ -13,33 +13,33 @@
             <table>
                 <tbody>
                 <tr>
-                    <td><button  id="botao_apagar" onclick="apagar()">C</button></td>
-                    <td><button  id="botao_apagar_1" onclick="apagar1()">C1</button></td>
-                    <td><button onclick="insert('%')">%</button></td>
-                    <td><button onclick="insert('/')">/</button></td>
+                    <td><button class="operadores" id="botao_apagar" onclick="apagar()">C</button></td>
+                    <td><button class="operadores" id="botao_apagar_1" onclick="apagar1()">C1</button></td>
+                    <td><button class="operadores" onclick="insert('%')">%</button></td>
+                    <td><button class="operadores" onclick="insert('/')">/</button></td>
                 </tr>
                 <tr>
                     <td><button  onclick="insert('9')">9</button></td>
                     <td><button  onclick="insert('8')">8</button></td>
                     <td><button  onclick="insert('7')">7</button></td>
-                    <td><button  onclick="insert('*')">x</button></td>
+                    <td><button class="operadores" onclick="insert('*')">x</button></td>
                 </tr>
                 <tr>
                     <td><button  onclick="insert('6')">6</button></td>
                     <td><button  onclick="insert('5')">5</button></td>
                     <td><button  onclick="insert('4')">4</button></td>
-                    <td><button  onclick="insert('-')">-</button></td>
+                    <td><button class="operadores" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
                     <td><button  onclick="insert('3')">3</button></td>
                     <td><button  onclick="insert('2')">2</button></td>
                     <td><button  onclick="insert('1')">1</button></td>
-                    <td><button  onclick="insert('+')">+</button></td>
+                    <td><button class="operadores" onclick="insert('+')">+</button></td>
                 </tr>
                 <tr>
                     <td><button  onclick="insert('0')">0</button></td>
-                    <td><button  onclick="insert(',')">,</button></td>
-                    <td><button  onclick="calcular()">=</button></td>
+                    <td><button  onclick="insert('.')">,</button></td>
+                    <td><button class="operadores" id="calcular" onclick="calcular()">=</button></td>
                 </tr>
                 </tbody>
             </table>
