@@ -26,6 +26,7 @@ body{
     background-color: rgb(112, 36, 112);
     height: 100px;
     width: 100%;
+    text-overflow: ellipsis;
     overflow: hidden;
     text-align: left;     
     font-size: 5rem;
